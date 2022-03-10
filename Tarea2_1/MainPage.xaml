@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tarea2_1.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="TAREA 2.1" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+
+        <Button x:Name="btnAfrica" Text="Africa" Clicked="btnAfrica_Clicked"/>
+        <Button x:Name="btnAmerica" Text="America" Clicked="btnAmerica_Clicked"/>
+        <Button x:Name="btnAsia" Text="Asia" Clicked="btnAsia_Clicked"/>
+        <Button x:Name="btnEuropa" Text="Europa" Clicked="btnEuropa_Clicked"/>
+        <Button x:Name="btnOseania" Text="Oceania" Clicked="btnOseania_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
